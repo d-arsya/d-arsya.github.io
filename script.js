@@ -4,8 +4,8 @@
  player.innerHTML = nama;
 //nama lawan
  const namaComputer= ["ABEL","AZALEYA","ELIS","LIA","DHITA","HANIFA","DEA","GHEA","ICHA","YASMIN"];
- function nLawan(){
-    return namaComputer[Math.floor(Math.random() * namaComputer.length)];
+ function nLawan(i){
+    return namaComputer[i];
  }
 //cari pilihan computer
  function pLawan(){
@@ -75,7 +75,9 @@
             const namaHasil = document.getElementById('hasil');
             namaHasil.innerHTML = hasilFinal;
             let Comp = document.getElementById("namaLawan");
-            Comp.innerHTML = nLawan();
+            let index = 1;
+            index = index+1;
+            Comp.innerHTML = nLawan(index);
             },410); 
         });  
     });
