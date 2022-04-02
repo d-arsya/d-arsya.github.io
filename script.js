@@ -1,3 +1,4 @@
+alert('halo');
 //nama player
  var nama = prompt('Siapa Nama Kamu');
  var player = document.getElementById('namaplay');
