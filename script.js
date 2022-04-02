@@ -3,7 +3,7 @@
  var player = document.getElementById('namaplay');
  player.innerHTML = nama;
 //nama lawan
- const namaComputer= ["KARIMAH","AZALEYA","ELIS","FATMA","YESSI","RAHMA","MAYA","TARI","USWAH","YASMIN"];
+ const namaComputer= ["ABEL","AZALEYA","ELIS","LIA","DHITA","HANIFA","DEA","GHEA","ICHA","YASMIN"];
  function nLawan(){
     return namaComputer[Math.floor(Math.random() * namaComputer.length)];
  }
