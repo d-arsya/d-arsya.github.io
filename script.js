@@ -1,12 +1,11 @@
-alert('halo');
 //nama player
  var nama = prompt('Siapa Nama Kamu');
  var player = document.getElementById('namaplay');
  player.innerHTML = nama;
 //nama lawan
  const namaComputer= ["ABEL","AZALEYA","ELIS","LIA","DHITA","HANIFA","DEA","GHEA","ICHA","YASMIN"];
- function nLawan(i){
-    return namaComputer[i];
+ function nLawan(){
+    return namaComputer[Math.floor(Math.random() * namaComputer.length)];
  }
 //cari pilihan computer
  function pLawan(){
@@ -76,9 +75,7 @@ alert('halo');
             const namaHasil = document.getElementById('hasil');
             namaHasil.innerHTML = hasilFinal;
             let Comp = document.getElementById("namaLawan");
-            let index = 1;
-            index = index+1;
-            Comp.innerHTML = nLawan(index);
+            Comp.innerHTML = nLawan();
             },410); 
         });  
     });
