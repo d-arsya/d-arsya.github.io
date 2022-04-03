@@ -87,7 +87,7 @@
     text-align: center;
 }
 #batu{
-    background-image: url(batu.jpg);
+    background-image: url(https://raw.githubusercontent.com/d-arsya/resource/main/batu.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display:inline-block;
@@ -99,7 +99,7 @@
     background-color:white;
 }
 #kertas{
-    background-image: url(kertas.jpg);
+    background-image: url(https://raw.githubusercontent.com/d-arsya/resource/main/kertas.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display:inline-block;
@@ -111,7 +111,7 @@
     background-color:white;
 }
 #gunting{
-    background-image: url(gunting.jpg);
+    background-image: url(https://raw.githubusercontent.com/d-arsya/resource/main/gunting.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display:inline-block;
@@ -155,12 +155,12 @@
     background-repeat: no-repeat;
 }
 .instagram{
-    background-image: url(ig.png) ;
+    background-image: url(https://raw.githubusercontent.com/d-arsya/resource/main/IG.PNG) ;
 }
 .telegram{
-    background-image: url(tele.png) ;
+    background-image: url(https://raw.githubusercontent.com/d-arsya/resource/main/TELE.PNG) ;
 }.gmail{
-    background-image: url(gmail.png) ;
+    background-image: url(https://raw.githubusercontent.com/d-arsya/resource/main/GMAIL.PNG) ;
 }.whatsapp{
-    background-image: url(wa.png) ;
+    background-image: url(https://raw.githubusercontent.com/d-arsya/resource/main/WA.PNG) ;
 }
