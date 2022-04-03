@@ -48,7 +48,7 @@
     height:140px;
     border-radius:70px;
     border:2px dashed rgb(0, 4, 255);
-    background-image: url(batu.jpg);
+    background-image: url(https://raw.githubusercontent.com/d-arsya/resource/main/batu.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
