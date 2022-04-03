@@ -1,0 +1,1407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style/style.css" />
+	<title>Alumni Angkatan 10</title>
+</head>
+
+<body>
+	<content class="container">
+		<header class="header" id="atas">
+			Alumni SDIT Luqman Al Hakim<br>Angkatan 10
+		</header>
+		<nav class="nav">
+			<a href="#A">A</a>
+			<a href="#B">B</a>
+			<a href="#C">C</a>
+			<a href="#D">D</a>
+			<a href="#E">E</a>
+			<a href="#F">F</a>
+			<a href="#G">G</a>
+			<a href="#H">H</a>
+			<a href="#I">I</a>
+			<a href="#J">J</a>
+			<a href="#K">K</a>
+			<a href="#L">L</a>
+			<a href="#M">M</a>
+			<a href="#N">N</a>
+			<a href="#O">O</a>
+			<a href="#P">P</a>
+			<a href="#Q">Q</a>
+			<a href="#R">R</a>
+			<a href="#S">S</a>
+			<a href="#T">T</a>
+			<a href="#U">U</a>
+			<a href="#V">V</a>
+			<a href="#W">W</a>
+			<a href="#X">X</a>
+			<a href="#Y">Y</a>
+			<a href="#Z">Z</a>
+		</nav>
+		<a class="atas" href="#atas">^</a>
+		<span class="anggota">
+			<div class="orang" id="A">
+				<img src="hilmi.jpg" class="foto">
+				<h2 class="nama">Abdul 'Adzim Hilmi Ahmad</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6285235204344"></a>
+					<a href="https://instagram.com/_mob.kun"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						PonPes Imam Syuhodo Sukoharjo<br>
+						SMA Al Abidin Bilingual Surakarta<br>
+						-<br>
+						5 Maret 2005<br>
+						Jl. Kelud Barat IV, Joglo, Pundung Gede, Kadipiro, Banjarsari, Surakarta, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"Tetap rebahan dan jadi beban keluarga"
+				</p>
+			</div>
+			<div class="orang">
+				<img src="rian.jpg" class="foto">
+				<h2 class="nama">Adrianasta Azizul Hakim</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6289626806868"></a>
+					<a href="https://instagram.com/adrianasta_ah"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						SMP Muhammadiyah 7 Surakarta<br>
+						MAN 2 Sleman<br>
+						-<br>
+						4 Desember 2004<br>
+            Banjeng, Maguwoharjo, Depok, Sleman, DI Yogyakarta
+					</span>
+				</div>
+				<p class="motto">
+					"B3 Belajar Bekerja Berdoa"
+				</p>
+			</div>
+			<div class="orang">
+				<img src="adi.jpg" class="foto">
+				<h2 class="nama">Adi Robi Zulkarnain</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/"></a>
+					<a href="https://instagram.com/adirob_08"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						<br>
+						<br>
+						-<br>
+						<br>
+
+					</span>
+				</div>
+				<p class="motto">
+					""
+				</p>
+			</div>
+			<div class="orang">
+				<img src="ayyik.jpg" class="foto">
+				<h2 class="nama">Ahmad Qushayyi Darmawan</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6281390172741"></a>
+					<a href="https://instagram.com/ahmadqushayi.d"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						<br>
+						<br>
+						-<br>
+						<br>
+
+					</span>
+				</div>
+				<p class="motto">
+					""
+				</p>
+			</div>
+			<div class="orang">
+				<img src="shofa.jpg" class="foto">
+				<h2 class="nama">Ahmad Shoffal Haq</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6281393228573"></a>
+					<a href="https://instagram.com/shoffal.haq"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						SMP Al Islam 1 Surakarta<br>
+						SMAN 3 Surakarta<br>
+						-<br>
+						31 Mei 2005<br>
+            			Ngoresan, Jebres, Jebres, Surakarta, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"Witing tresno jalaran kulino"
+				</p>
+			</div>
+			<div class="orang">
+				<img src="alif.jpg" class="foto">
+				<h2 class="nama">Alifta Sya'ban</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6287885052489"></a>
+					<a href="https://instagram.com/aliftaasy"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						SMPIT Nur Hidayah Surakarta<br>
+						SMAN 5 Surakarta<br>
+						-<br>
+						5 Oktober 2004<br>
+            			Jl. Dempo Timur No. 27A, Mojosongo, Jebres, Surakarta, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"Start something and then slowly fix everything"
+				</p>
+			</div>
+			<div class="orang bsr">
+				<img src="alis.jpg" class="foto">
+				<h2 class="nama">Aliswandani Nashifa Salsabila Putra</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/"></a>
+					<a href="https://instagram.com/aliswandh"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						SMP Darul Madinah Madiun<br>
+						MA Nurul Iman Surakarta<br>
+						-<br>
+						<br>
+
+					</span>
+				</div>
+				<p class="motto">
+					""
+				</p>
+			</div>
+			<div class="orang">
+				<img src="jasir.jpg" class="foto">
+				<h2 class="nama">Andrian Jasir Fauzan</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6281226288598"></a>
+					<a href="https://instagram.com/and.jasir.f"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						SMPIT Nur Hidayah Surakarta<br>
+						MAN 1 Surakarta<br>
+						-<br>
+						19 Juni 2005<br>
+            Jeron, Nogosari, Boyolali, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"Kiki kakak"
+				</p>
+			</div>
+			<div class="orang">
+				<img src="yuda.jpg" class="foto">
+				<h2 class="nama">Anggoro Yudo Suryaningprojo</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/"></a>
+					<a href="https://instagram.com/_anggoroyudo_"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						SMPIT Nur Hidayah Surakarta<br>
+						<br>
+						-<br>
+						<br>
+
+					</span>
+				</div>
+				<p class="motto">
+					""
+				</p>
+			</div>
+			<div class="orang">
+				<img src="annisa.jpg" class="foto">
+				<h2 class="nama">Annisa Fitri Aroyan</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6281328795441"></a>
+					<a href="https://instagram.com/_annisafi"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						SMPIT Nur Hidayah Surakarta<br>
+						MAN 1 Surakarta<br>
+						-<br>
+						12 November 2004<br>
+            			Celep Kidul RT 01/IV, Jaten, Dagen, Karanganyar, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"Over thinking kills your happiness"
+				</p>
+			</div>
+			<div class="orang" id="B">
+				<img src="bintang.jpg" class="foto">
+				<h2 class="nama">Bayu Bintang Pratama</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6287828162084"></a>
+					<a href="https://instagram.com/bayusibiru12"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						SMP Al Islam 1 Surakarta<br>
+						SMAN 6 Surakarta<br>
+						-<br>
+						21 April 2005<br>
+						Debegan RT 04/V, Mojosongo, Jebres, Surakarta, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"Keep live"
+				</p>
+			</div>
+			<div class="orang" id="C">
+				<img src="kaka.jpg" class="foto">
+				<h2 class="nama">Chanief Mutiara Wicaksana</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6281770620284"></a>
+					<a href="https://instagram.com/kk.chanif_wicaksana"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						SMP Muhammadiyah 2 Surakarta<br>
+						SMKN 9 Surakarta<br>
+						-<br>
+						18 September 2003<br>
+            Tawang Sari RT 03/XXXIV, Mojosongo, Jebres, Surakarta, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"Ambil kesempatan sebelum realita bertindak"
+				</p>
+			</div>
+			<div class="orang">
+				<img src="chika.jpg" class="foto">
+				<h2 class="nama">Chika Herinadeta</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6281244594586"></a>
+					<a href="https://instagram.com/ciikaahd"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						SMP Muhammadiyah 7 Surakarta<br>
+						<br>
+						-<br>
+						<br>
+
+					</span>
+				</div>
+				<p class="motto">
+					""
+				</p>
+			</div>
+			<div class="orang" id="D">
+				<img src="dava.jpg" class="foto">
+				<h2 class="nama">Dava Adila Syuaib</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6289529549012"></a>
+					<a href="https://instagram.com/davadds_"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						SMP Muhammadiyah PK Surakarta<br>
+						SMAN 3 Surakarta<br>
+						-<br>
+						17 Agustus 2005<br>
+						Gondang Baru RT 3/II, Kedung Jeruk, Mojogedang, Karanganyar, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"Nothing"
+				</p>
+			</div>
+			<div class="orang" id="F">
+				<img src="rizal.jpg" class="foto">
+				<h2 class="nama">Fahri Ahmad Ar Rizal</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6282133713691"></a>
+					<a href="https://instagram.com/faarizal_"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						MTs Darul Hijroh Sukoharjo<br>
+						SMA Al Islam 1 Surakarta<br>
+						-<br>
+						23 April 2005<br>
+            Ngringo, Jaten, Karanganyar, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"Visi tanpa eksekusi adalah halusinasi"
+				</p>
+			</div>
+			<div class="orang">
+				<img src="faza.jpg" class="foto" id="F">
+				<h2 class="nama">Faza Tsany Al Zaki</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6285808289168"></a>
+					<a href="https://instagram.com/_za.faza"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						MTs Al Kahfi & SMP 16 Surakarta<br>
+						SMAN 1 Surakarta<br>
+						-<br>
+						30 November 2004<br>
+            Petoran RT 02/V, Jebres, Jebres, Surakarta, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"kepo men_-"
+				</p>
+			</div>
+			<div class="orang" id="H">
+				<img src="hanan.jpg" class="foto">
+				<h2 class="nama">Hanan Ikbar Alfirdaus</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/"></a>
+					<a href="https://instagram.com/hananikbr"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						<br>
+						<br>
+						-<br>
+						<br>
+
+					</span>
+				</div>
+				<p class="motto">
+					""
+				</p>
+			</div>
+			<div class="orang">
+				<img src="hanif.jpg" class="foto">
+				<h2 class="nama">Hanif Azka Adibtya Putra</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6289630859513"></a>
+					<a href="https://instagram.com/hanzelnutofficial"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						SMP Al Islam 1 Surakarta<br>
+						SMK Muhammadiyah 3 Surakarta<br>
+						-<br>
+						25 April 2005<br>
+						Tegal Winangun RT 03/XIII, Tegal Gede, Karanganyar, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"Slowly but surely"
+				</p>
+			</div>
+			<div class="orang" id="I">
+				<img src="ilham.jpg" class="foto">
+				<h2 class="nama">Ilham Taqwa Ednun</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/62882005229819"></a>
+					<a href="https://instagram.com/ihamta94"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						SMP Muhammadiyah 2 Surakarta<br>
+						SMKN 9 Surakarta<br>
+						-<br>
+						28 November 2004<br>
+						Mojosongo, Jebres, Surakarta, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"Lelah boleh, nyerah jangan"
+				</p>
+			</div>
+			<div class="orang">
+				<img src="izal.jpg" class="foto">
+				<h2 class="nama">Izal Ainul Yaqin</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/"></a>
+					<a href="https://instagram.com/izalanlyqn"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						<br>
+						<br>
+						-<br>
+						<br>
+						
+					</span>
+				</div>
+				<p class="motto">
+					""
+				</p>
+			</div>
+			<div class="orang" id="J">
+				<img src="jundi.jpg" class="foto">
+				<h2 class="nama">Jundi Muhammad Fauzan</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/"></a>
+					<a href="https://instagram.com/jnd.fzn"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						SMPIT Nur Hidayah Surakarta<br>
+						<br>
+						-<br>
+						<br>
+						
+					</span>
+				</div>
+				<p class="motto">
+					""
+				</p>
+			</div>
+			<div class="orang" id="K">
+				<img src="arsyad.jpeg" class="foto">
+				<h2 class="nama">Kamaluddin Arsyad Fadllillah</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6282122488356"></a>
+					<a href="https://instagram.com/d.arsya_"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						MTs Hidayatullah Yogyakarta<br>
+						MA Hidayatullah Yogyakarta<br>
+						-<br>
+						17 Maret 2005<br>
+						Perum Taman Baituna blok B2, Balong, Wonorejo, Gondangrejo, Karanganyar, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"Banyak cara yang bisa dilakukan, cukup coba satu persatu"
+				</p>
+			</div>
+			<div class="orang">
+				<img src="sandra.jpg" class="foto">
+				<h2 class="nama">Kumaratih Sandra Dewi Wardani</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/"></a>
+					<a href="https://instagram.com/"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						<br>
+						<br>
+						-<br>
+						<br>
+						
+					</span>
+				</div>
+				<p class="motto">
+					""
+				</p>
+			</div>
+			<div class="orang" id="L">
+				<img src="hafidh.jpg" class="foto">
+				<h2 class="nama">Lukman Nur Hafidh</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/"></a>
+					<a href="https://instagram.com/man_hafidh"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						<br>
+						MAN 1 Surakarta<br>
+						-<br>
+						<br>
+						
+					</span>
+				</div>
+				<p class="motto">
+					""
+				</p>
+			</div>
+			<div class="orang">
+				<img src="luthfiah.jpg" class="foto">
+				<h2 class="nama">Luthfiah Hafidzatun Nisa'</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6285870474101"></a>
+					<a href="https://instagram.com/"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						MTs Rooihatul Jannah Sukoharjo<br>
+						MA Nurul Iman Surakarta<br>
+						-<br>
+						<br>
+						
+					</span>
+				</div>
+				<p class="motto">
+					""
+				</p>
+			</div>>
+			<div class="orang" id="M">
+				<img src="meutia.jpg" class="foto">
+				<h2 class="nama">Meutia Wigi Liestyana</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6281328331069"></a>
+					<a href="https://instagram.com/mwtylie"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						SMPN 1 Karanganyar<br>
+						SMAN 1 Karanganyar<br>
+						-<br>
+						11 Juli 2005<br>
+						Gunden RT 07/IV, Waru, Kebakkramat, Karanganyar
+					</span>
+				</div>
+				<p class="motto">
+					"Tidur cukup Hidup baik"
+				</p>
+			</div>
+			<div class="orang">
+				<img src="bram.jpg" class="foto">
+				<h2 class="nama">Muhammad Bramandha Tama</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6285803736029"></a>
+					<a href="https://instagram.com/bramndh_"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						Daarul Qur'an Surakarta<br>
+						UICCI Sulaimaniyah<br>
+						-<br>
+						22 November 2004<br>
+						Griya Sumber Asri blok C3, Busukan, Mojosongo, Jebres, Surakarta, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"Sopo sing nandur bakal ngunduh"
+				</p>
+			</div>
+			<div class="orang">
+				<img src="faiz.jpg" class="foto">
+				<h2 class="nama">Muhammad Faiz</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/"></a>
+					<a href="https://instagram.com/pzz._"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						<br>
+						SMK 2 Surakarta<br>
+						-<br>
+						<br>
+						
+					</span>
+				</div>
+				<p class="motto">
+					""
+				</p>
+			</div>
+			<div class="orang">
+				<img src="fajar.jpg" class="foto">
+				<h2 class="nama">Muhammad Fajar Alfa Rizqi</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6289518284403"></a>
+					<a href="https://instagram.com/jar_fajar.oe"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						MTs Al Kahfi Surakarta<br>
+						PonPes Al Husnayain Surakarta<br>
+						-<br>
+						19 Mei 2005<br>
+						Ngoresan RT 04/XXII, Jebres, Jebres, Surakarta, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"Keep live"
+				</p>
+			</div>
+			<div class="orang">
+				<img src="fatah.jpg" class="foto">
+				<h2 class="nama">Muhammad Fatah Karunia</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6282137434283"></a>
+					<a href="https://instagram.com/fatahh_14"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						PPMI As Salaam Surakarta<br>
+						PPMI As Salaam Surakarta<br>
+						-<br>
+						<br>
+						
+					</span>
+				</div>
+				<p class="motto">
+					""
+				</p>
+			</div>
+			<div class="orang">
+				<img src="firdaus.jpg" class="foto">
+				<h2 class="nama">Muhammad Firdaus Yodi Kusuma</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/"></a>
+					<a href="https://instagram.com/mufiyoku_"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						MTs Al Kahfi Surakarta<br>
+						<br>
+						-<br>
+						<br>
+						
+					</span>
+				</div>
+				<p class="motto">
+					""
+				</p>
+			</div>
+			<div class="orang">
+				<img src="hafiz.jpg" class="foto">
+				<h2 class="nama">Muhammad Hafiz Ardiansyah	</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6281237216481"></a>
+					<a href="https://instagram.com/hafizardd"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						SMPIT Nur Hidayah Surakarta<br>
+						SMAN 1 Surakarta<br>
+						-<br>
+						11 Juni 2005<br>
+						Dukuhan Nayu RT 04/VIII, Joglo, Banjarsari, Surakarta, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"Nice try"
+				</p>
+			</div>
+			<div class="orang">
+				<img src="said.jpg" class="foto">
+				<h2 class="nama">Muhammad Ikhsan Nur Massaid</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/"></a>
+					<a href="https://instagram.com/rezky.massaid.official"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						<br>
+						<br>
+						-<br>
+						<br>
+						
+					</span>
+				</div>
+				<p class="motto">
+					""
+				</p>
+			</div>
+			<div class="orang">
+				<img src="iqbal.jpg" class="foto">
+				<h2 class="nama">Muhammad Iqbal Sanusi</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6289691797914"></a>
+					<a href="https://instagram.com/iqball.ibull"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						SMP Muhammadiyah 7 Surakarta<br>
+						SMKN 5 Surakarta<br>
+						-<br>
+						26 Juni 2004<br>
+						Plesungan Raya RT 02/II, Gondangrejo, Karanganyar, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"Jadilah dirimu sendiri"
+				</p>
+			</div>
+			<div class="orang">
+				<img src="rafi.jpg" class="foto">
+				<h2 class="nama">Muhammad Rafi Izazdzakira</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6289618730444"></a>
+					<a href="https://instagram.com/rafi_izdz"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						SMPIT Nur Hidayah Surakarta<br>
+						SMAIT Al Haraki Depok<br>
+						-<br>
+						27 Agustus 2005<br>
+						Ngringo Indah, Ngringo, Jaten, Karanganyar, Jawa Tengah
+						
+					</span>
+				</div>
+				<p class="motto">
+					"Drew"
+				</p>
+			</div>
+			<div class="orang">
+				<img src="rosyid.jpg" class="foto">
+				<h2 class="nama">Muhammad Rizqy Arrozid</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6281905507616"></a>
+					<a href="https://instagram.com/"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						PPTQ Al Furqon Sukoharjo<br>
+						PPTQ Al Furqon Sukoharjo<br>
+						-<br>
+						5 November 2002<br>
+						Marengan RT 05/IX, Mojosongo, Jebres, Surakarta, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"Tetaplah tersenyum walau tersakiti 🙃"
+				</p>
+			</div>
+			<div class="orang">
+				<img src="yusuf.jpg" class="foto">
+				<h2 class="nama">Muhammad Yusuf Nur Kholid</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6288232843391"></a>
+					<a href="https://instagram.com/m_yusuf_nk"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						MTs Darul Hijroh Sukoharjo<br>
+						SMK Muhammadiyah 3 Surakarta<br>
+						-<br>
+						17 Desember 2004<br>
+						Busukan RT 01/XXVII, Mojosongo, Jebres, Surakarta, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"Keep live"
+				</p>
+			</div>
+			<div class="orang">
+				<img src="rio.jpg" class="foto">
+				<h2 class="nama">Muhammad Zamharir Rioga Putra</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6281228452875"></a>
+					<a href="https://instagram.com/zharir_1467"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						SMP Al Islam 1 Surakarta<br>
+						SMK TI An Najiyah Jombang<br>
+						-<br>
+						11 Maret 2005<br>
+						Kalijaring, Jombang, Jawa Timur
+					</span>
+				</div>
+				<p class="motto">
+					"Menyerah adalah akhir segalanya"
+				</p>
+			</div>
+			<div class="orang" id="N">
+				<img src="nabila.jpg" class="foto">
+				<h2 class="nama">Nabila Mutiaratsani Ichsan</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6281808976106"></a>
+					<a href="https://instagram.com/nabilaamtra"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						MTs Al Ukhuwah Sukoharjo<br>
+						MA Riyadhus Sholihat<br>
+						-<br>
+						11 Oktober 2004<br>
+						
+					</span>
+				</div>
+				<p class="motto">
+					""
+				</p>
+			</div>
+			<div class="orang">
+				<img src="nadia.jpg" class="foto">
+				<h2 class="nama">Nadiannisa Taqillah</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6282133176691"></a>
+					<a href="https://instagram.com/nadianisaa_"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						SMPIT Nurul Islam<br>
+						SMAIT Nur Hidayah<br>
+						-<br>
+						26 Juni 2005<br>
+						Jl. Tangkuban Perahu No. 92, Mojosongo, Jebres, Surakarta, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"Tetap hidup walau tak berguna"
+				</p>
+			</div>
+			<div class="orang">
+				<img src="iyas.jpg" class="foto">
+				<h2 class="nama">Nadya Shada Nafisa</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6285888888837"></a>
+					<a href="https://instagram.com/nadyashada"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						<br>
+						MAN 1 Surakarta<br>
+						-<br>
+						<br>
+						
+					</span>
+				</div>
+				<p class="motto">
+					""
+				</p>
+			</div>
+			<div class="orang">
+				<img src="farros.jpg" class="foto">
+				<h2 class="nama">Nur Wahid Amirul Farrosi</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6282143727946"></a>
+					<a href="https://instagram.com/"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						MTsN 1 Surakarta<br>
+						SMAN 1 Gondangrejo<br>
+						-<br>
+						19 Oktober 2004<br>
+						Cinet RT 02/II, Bulurejo, Gondangrejo, Karanganyar, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"Keep live"
+				</p>
+			</div>
+			<div class="orang">
+				<img src="ikhsan.jpg" class="foto">
+				<h2 class="nama">Nurqolis Ikhsan Hidayat</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/"></a>
+					<a href="https://instagram.com/"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						SMP Muhammadiyah 7 Surakarta<br>
+						SMK 5 Surakarta<br>
+						-<br>
+						2 Maret 2005<br>
+						Bonoroto, Mojosongo, Jebres, Surakarta, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"Jika baru terbit jangan merasa paling bersinar, malu sama yang udah senja"
+				</p>
+			</div>
+			<div class="orang" id="O">
+				<img src="thia.jpg" class="foto">
+				<h2 class="nama">Okthia Maharani</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6285869880006"></a>
+					<a href="https://instagram.com/okthia"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						SMPN 25 Surakarta<br>
+						SMAN 6 Surakarta<br>
+						-<br>
+						21 Oktober 2005<br>
+						Clolo RT 03/VII, Banjarsari, Surakarta, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"Keep live"
+				</p>
+			</div>
+			<div class="orang" id="P">
+				<img src="popo.jpg" class="foto">
+				<h2 class="nama">Purwo Purnomo Jati</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/"></a>
+					<a href="https://instagram.com/"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						<br>
+						<br>
+						-<br>
+						<br>
+						
+					</span>
+				</div>
+				<p class="motto">
+					""
+				</p>
+			</div>
+			<div class="orang" id="Q">
+				<img src="qinthar.jpg" class="foto">
+				<h2 class="nama">Qinthar Aghana Akhala Indartono</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/"></a>
+					<a href="https://instagram.com/"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						<br>
+						<br>
+						-<br>
+						<br>
+						
+					</span>
+				</div>
+				<p class="motto">
+					""
+				</p>
+			</div>
+			<div class="orang">
+				<img src="ifah.jpg" class="foto">
+				<h2 class="nama">Qoirul Hanifah</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6281392953722"></a>
+					<a href="https://instagram.com/ifhlbe"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						SMP Muhammadiyah 7 Surakarta<br>
+						SMA Muhammadiyah PK Surakarta<br>
+						-<br>
+						23 Desember 2004<br>
+						Ruko Peni Regency, Balong, Mojosongo, Jebres, Surakarta, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"We only see half of people of the world of ourselves"
+				</p>
+			</div>
+			<div class="orang" id="R">
+				<img src="radhit.jpg" class="foto">
+				<h2 class="nama">Radithya Nur Karisma Rifa'i</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6287729968841"></a>
+					<a href="https://instagram.com/karisma829"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						SMP Al Abidin Surakarta<br>
+						SMAN 6 Surakarta<br>
+						-<br>
+						30 Desember 2004<br>
+						Ngemplak RT 03/XXIX, Mojosongo, Jebres, Surakarta, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"Menjadi yang lebih baik dari yang terbaik"
+				</p>
+			</div>
+			<div class="orang">
+				<img src="bani.jpg" class="foto">
+				<h2 class="nama">Raydenito Raya Robbani</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6289522953569"></a>
+					<a href="https://instagram.com/raey_rabbani"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						MTs Al Kahfi Surakarta<br>
+						MA Al Kahfi Surakarta<br>
+						-<br>
+						<br>
+						
+					</span>
+				</div>
+				<p class="motto">
+					""
+				</p>
+			</div>
+			<div class="orang">
+				<img src="rindan.jpg" class="foto">
+				<h2 class="nama">Rindansyah</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6289691788637"></a>
+					<a href="https://instagram.com/rdnshhh"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						SMP Muhammadiyah 7 Surakarta<br>
+						SMAN 8 Surakarta<br>
+						-<br>
+						27 Juni 2005<br>
+						Merto Udan RT 08/IX, Mojosongo, Jebres, Surakarta, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"keep live"
+				</p>
+			</div>
+			<div class="orang">
+				<img src="hakam.jpg" class="foto">
+				<h2 class="nama">Rossi Khoirul Hakam</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/"></a>
+					<a href="https://instagram.com/h_khoirul_r"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						SMP Al Irsyad Surakarta<br>
+						SMA MTA SUrakarta<br>
+						-<br>
+						7 Oktober 2004<br>
+						Mojosongo, Jebres, Surakarta, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"Tidak perlu memikirkan hasil, yang penting kerjakan dulu"
+				</p>
+			</div>
+			<div class="orang">
+				<img src="rozi.jpg" class="foto">
+				<h2 class="nama">Rozi Rosyid Ridho</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6288806112683"></a>
+					<a href="https://instagram.com/"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						<br>
+						<br>
+						-<br>
+						<br>
+						
+					</span>
+				</div>
+				<p class="motto">
+					""
+				</p>
+			</div>
+			<div class="orang" id="S">
+				<img src="sabrina.jpg" class="foto">
+				<h2 class="nama">Sabrina Berliana Subagya</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6282134662013"></a>
+					<a href="https://instagram.com/sabrinaabs"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						SMPN 4 Surakarta<br>
+						SMAN 1 Surakarta<br>
+						-<br>
+						16 Oktober 2005<br>
+						Gunden RT 07/IV, Kebakkramat, Karanganyar, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"Friendly in public, stress in private"
+				</p>
+			</div>
+			<div class="orang">
+				<img src="salsa.jpg" class="foto">
+				<h2 class="nama">Salsabila Ananta</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/"></a>
+					<a href="https://instagram.com/"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						Daarul Qur'an Surakarta<br>
+						<br>
+						-<br>
+						<br>
+						
+					</span>
+				</div>
+				<p class="motto">
+					""
+				</p>
+			</div>
+			<div class="orang">
+				<img src="shofi.jpg" class="foto">
+				<h2 class="nama">Shofi Fauziyyah</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6281353577977"></a>
+					<a href="https://instagram.com/zhiyyah_"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						SMPIT Nur Hidayah Surakarta<br>
+						SMAN 1 Surakarta<br>
+						-<br>
+						<br>
+						
+					</span>
+				</div>
+				<p class="motto">
+					""
+				</p>
+			</div>
+			<div class="orang">
+				<img src="tasnim.jpg" class="foto">
+				<h2 class="nama">Surura Urfa Tasnim</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/"></a>
+					<a href="https://instagram.com/ttasznim_"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						<br>
+						SMK Mandala Bhakti<br>
+						-<br>
+						<br>
+						
+					</span>
+				</div>
+				<p class="motto">
+					""
+				</p>
+			</div>
+			<div class="orang" id="W">
+				<img src="mandhat.jpg" class="foto">
+				<h2 class="nama">Wishaluddin Azhar Mandhat</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6285643358876"></a>
+					<a href="https://instagram.com/ndatz_"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						MTs Hidayatullah Yogyakarta<br>
+						MA Hidayatullah Yogyakarta<br>
+						-<br>
+						7 April 2005<br>
+						Kendal Rejo RT 03/XI, Mojosongo, Jebres, Surakarta, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					"Fight for jannah"
+				</p>
+			</div>
+			<div class="orang" id="Y">
+				<img src="yasmin.jpg" class="foto">
+				<h2 class="nama">Yasmina Zalfa</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/"></a>
+					<a href="https://instagram.com/zalfaays._"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						MTs Rooihatul Jannah Sukoharjo<br>
+						MA Nurul Iman Surakarta<br>
+						-<br>
+						<br>
+						
+					</span>
+				</div>
+				<p class="motto">
+					""
+				</p>
+			</div>
+			<div class="orang">
+				<img src="jalu.jpg" class="foto">
+				<h2 class="nama">Yayan Jalu Prasetya</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/6285867403157"></a>
+					<a href="https://instagram.com/"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						<br>
+						<br>
+						-<br>
+						<br>
+						
+					</span>
+				</div>
+				<p class="motto">
+					""
+				</p>
+			</div>
+			<div class="orang">
+				<img src="tsany.jpg" class="foto">
+				<h2 class="nama">Yoar Tsany Nur Syahidah</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/"></a>
+					<a href="https://instagram.com/yoartsany"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						TMQ Rooihatul Jannah Sukoharjo<br>
+						TMQ Rooihatul Jannah Sukoharjo<br>
+						-<br>
+						21 September 2004<br>
+						Ndondong, Gemolong, Sragen, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					""
+				</p>
+			</div>
+			<div class="orang">
+				<img src="yusup.jpg" class="foto">
+				<h2 class="nama">Yusup Maulana</h2>
+				<nav class="medsos">
+					<a href="https://wa.me/"></a>
+					<a href="https://instagram.com/"></a>
+				</nav>
+				<div class="bio">
+					<span>SMP<br>SMA<br>Kuliah<br>TTL<br>Alamat</span>
+					<span>:<br>:<br>:<br>:<br>:</span>
+					<span>
+						<br>
+						<br>
+						-<br>
+						<br>
+						Marengan RT 05/IX, Mojosongo, Jebres, Surakarta, Jawa Tengah
+					</span>
+				</div>
+				<p class="motto">
+					""
+				</p>
+			</div>
+		</span>
+	</content>
+
+</body>
+<script>
+   const orang = document.querySelector(".anggota");
+   var b = prompt("masukkan password");
+   let pw = "abc"
+  
+     if(b!=pw){
+       orang.style.display="none";
+       alert("Hayo lho.....kamu siapa. Ini khusus anggota terdaftar. Silahkan hubungi admin");
+     }else{
+       alert('Jika anda pengguna instagram, silahkan gunakan chrome')
+     }
+   
+</script>
+</html>
