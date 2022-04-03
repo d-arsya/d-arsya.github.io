@@ -13,13 +13,13 @@
     let gComp=document.getElementById('pilComp');
     let pComp = Math.random();
     if(pComp<0.333){
-        pComp='batu';gComp.style.backgroundImage='url(batu.jpg)';return 'batu';
+        pComp='batu';gComp.style.backgroundImage='url(https://raw.githubusercontent.com/d-arsya/resource/main/batu.jpg)';return 'batu';
     }
     if(pComp<0.666){
-        pComp='gunting';gComp.style.backgroundImage='url(gunting.jpg)';return 'gunting';
+        pComp='gunting';gComp.style.backgroundImage='url(https://raw.githubusercontent.com/d-arsya/resource/main/gunting.jpg)';return 'gunting';
     }
     if(pComp<0.999){
-        pComp='kertas';gComp.style.backgroundImage='url(kertas.jpg)';return 'kertas';
+        pComp='kertas';gComp.style.backgroundImage='url(https://raw.githubusercontent.com/d-arsya/resource/main/kertas.jpg)';return 'kertas';
     }
  }
  //transisis gambar lawan
@@ -33,7 +33,7 @@
               clearInterval;
               return;
             }
-          gLawan.style.backgroundImage=`url(${gambar[i]}.jpg)`;
+          gLawan.style.backgroundImage=`url(https://raw.githubusercontent.com/d-arsya/resource/main/${gambar[i]}.jpg)`;
           i++;
           if(i==gambar.length){i=0};
       },50)
