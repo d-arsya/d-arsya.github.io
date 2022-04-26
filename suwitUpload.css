@@ -285,12 +285,12 @@ animation: color-change-5x 8s cubic-bezier(0.785, 0.135, 0.150, 0.860) infinite 
     background-repeat: no-repeat;
 }
 .instagram{
-    background-image: url(https://raw.githubusercontent.com/d-arsya/resource/gameSuwit/ig.PNG) ;
+    background-image: url(https://raw.githubusercontent.com/d-arsya/resource/gameSuwit/ig.png) ;
 }
 .telegram{
     background-image: url(https://raw.githubusercontent.com/d-arsya/resource/gameSuwit/tele.png) ;
 }.gmail{
     background-image: url(https://raw.githubusercontent.com/d-arsya/resource/gameSuwit/gmail.png) ;
 }.whatsapp{
-    background-image: url(https://raw.githubusercontent.com/d-arsya/resource/gameSuwit/wa.PNG) ;
+    background-image: url(https://raw.githubusercontent.com/d-arsya/resource/gameSuwit/wa.png) ;
 }
