@@ -140,7 +140,7 @@ animation: color-change-5x 8s cubic-bezier(0.785, 0.135, 0.150, 0.860) infinite 
     width:140px;
     height:140px;
     border-radius:70px;
-    background-image: url(https://raw.githubusercontent.com/d-arsya/resource/main/batu.jpg);
+    background-image: url(https://raw.githubusercontent.com/d-arsya/resource/bikinRumah/batu.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -217,7 +217,7 @@ animation: color-change-5x 8s cubic-bezier(0.785, 0.135, 0.150, 0.860) infinite 
     text-align: center;
 }
 #batu{
-    background-image: url(https://raw.githubusercontent.com/d-arsya/resource/main/batu.jpg);
+    background-image: url(https://raw.githubusercontent.com/d-arsya/resource/bikinRumah/batu.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display:inline-block;
@@ -228,7 +228,7 @@ animation: color-change-5x 8s cubic-bezier(0.785, 0.135, 0.150, 0.860) infinite 
     background-color:white;
 }
 #kertas{
-    background-image: url(https://raw.githubusercontent.com/d-arsya/resource/main/kertas.jpg);
+    background-image: url(https://raw.githubusercontent.com/d-arsya/resource/bikinRumah/kertas.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display:inline-block;
@@ -239,7 +239,7 @@ animation: color-change-5x 8s cubic-bezier(0.785, 0.135, 0.150, 0.860) infinite 
     background-color:white;
 }
 #gunting{
-    background-image: url(https://raw.githubusercontent.com/d-arsya/resource/main/gunting.jpg);
+    background-image: url(https://raw.githubusercontent.com/d-arsya/resource/bikinRumah/gunting.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display:inline-block;
@@ -285,12 +285,12 @@ animation: color-change-5x 8s cubic-bezier(0.785, 0.135, 0.150, 0.860) infinite 
     background-repeat: no-repeat;
 }
 .instagram{
-    background-image: url(https://raw.githubusercontent.com/d-arsya/resource/main/IG.PNG) ;
+    background-image: url(https://raw.githubusercontent.com/d-arsya/resource/bikinRumah/IG.PNG) ;
 }
 .telegram{
-    background-image: url(https://raw.githubusercontent.com/d-arsya/resource/main/TELE.png) ;
+    background-image: url(https://raw.githubusercontent.com/d-arsya/resource/bikinRumah/TELE.png) ;
 }.gmail{
-    background-image: url(https://raw.githubusercontent.com/d-arsya/resource/main/GMAIL.png) ;
+    background-image: url(https://raw.githubusercontent.com/d-arsya/resource/bikinRumah/GMAIL.png) ;
 }.whatsapp{
-    background-image: url(https://raw.githubusercontent.com/d-arsya/resource/main/WA.PNG) ;
+    background-image: url(https://raw.githubusercontent.com/d-arsya/resource/bikinRumah/WA.PNG) ;
 }
