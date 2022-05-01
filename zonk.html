@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@600&display=swap');
+    h1{
+      width: 100%;
+      font-family: 'Radio Canada', sans-serif;
+      text-align: center;
+      font-size:50px;
+    }
+    body{
+      display: flex;
+      align-content: center;
+      align-items:center;
+      background-color: #b3f0ff;
+      height: 100vh;
+    }
+    .color-change-5x {
+
+	-webkit-animation: color-change-5x 8s cubic-bezier(0.785, 0.135, 0.150, 0.860) infinite alternate-reverse both;
+
+	        animation: color-change-5x 8s cubic-bezier(0.785, 0.135, 0.150, 0.860) infinite alternate-reverse both;
+}
+@-webkit-keyframes color-change-5x {
+  0% {
+    background: #19dcea;
+  }
+  25% {
+    background: #b22cff;
+  }
+  50% {
+    background: #ea2222;
+  }
+  75% {
+    background: #f5be10;
+  }
+  100% {
+    background: #3bd80d;
+  }
+}
+@keyframes color-change-5x {
+  0% {
+    background: #19dcea;
+  }
+  25% {
+    background: #b22cff;
+  }
+  50% {
+    background: #ea2222;
+  }
+  75% {
+    background: #f5be10;
+  }
+  100% {
+    background: #3bd80d;
+  }
+}
+  </style>
+</head>
+<body class="color-change-5x">
+  <h1>Hai</h1>
+  <script type="text/javascript" charset="utf-8">
+  const teks = document.querySelector("h1");
+        let i = 0;
+        let kata = ["Selamat Datang","di WebPage","Kegabutan","disini anda harus bersiap","menerima konsekuensi","karena","karena....","karena...",".....","TERSERAH SAYA LAH","Gak....canda aj","dah, ngapain masih disini ??","pergi sana","sia2 waktumu disini","tinggalin aj","ngeyel ih"]
+      setInterval(function(){
+        if(i<kata.length){
+        teks.innerHTML=kata[i];
+        i++;
+        }
+        else{
+          document.querySelector("body").style.backgroundColor=`black`;
+          document.querySelector("body").classList.remove("color-change-5x");
+        }
+      },1000)
+  </script>
+</body>
+</html>
