@@ -7,6 +7,13 @@
     text-decoration: none;
     color: grey;
 }
+.cobaHilang{
+    font-size: 2em;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px;
+}
 .infoAtas a div{
     margin: 0px 10px 0px 10px;    
     display: flex;
