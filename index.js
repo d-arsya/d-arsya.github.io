@@ -1,3 +1,4 @@
+alert("Disclaimer !!! sedang dalam pengembangan. Banyak kekurangan disana-sini. Terimakasih @d.arsya_");
 const branchButton = document.querySelectorAll(".cabangSekolah");
 const branchDescription = document.querySelectorAll(".cabangDeskripsi");
 branchButton.forEach(function(e){
