@@ -284,16 +284,6 @@
         color: white;
     }
     .burgerMenuIndex a{color: white;}
-    
-    .beritaIsi{
-        min-width: unset;
-        max-width: unset;
-        width: 45%;
-        max-height: 400px;
-        padding-bottom: 0px;
-    }
-    .beritaIsi h3{font-size: .7em;}
-    .beritaIsi p{font-size: .6em;}
     .agenda{
         width: 100%;
         box-shadow: none;
