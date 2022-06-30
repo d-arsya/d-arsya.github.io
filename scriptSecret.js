@@ -2,8 +2,10 @@
 const scriptURL = 'https://script.google.com/macros/s/AKfycbxGmFMYS8bBflUIwWw4lCEFgPOBzF6tabedtczsLXYaqfWVT_OwByEHRlbh32LmzvOL/exec'
 const form = document.forms['secret-message'];
 const reLaunch = document.querySelector(".reLaunch");
-const finish = document.querySelector(".finish");
 const messageForm = document.querySelector(".messageForm");
+const finish = document.querySelector(".finish");
+const wa1 = document.querySelector(".wa1");
+const wa2 = document.querySelector(".wa2");
 const tip = document.querySelector(".minutes");
 const loading = document.querySelector(".btn");
 const jamKirim = document.querySelector("#time");
@@ -14,6 +16,7 @@ tip.innerHTML=menit;
 setInterval(realTime, 1000);
 
 form.addEventListener('submit', e => {
+    wa1.style.display="none";
     loading.classList.toggle("hide");
     e.preventDefault()
     jamKirim.value=jam.textContent;
@@ -47,11 +50,14 @@ function normal(){
     loading.classList.toggle("hide");
     reLaunch.style.display="none";
     finish.style.display="none";
+    wa2.style.display="none";
+    wa1.style.display="block";
     messageForm.style.display="block";
     form.reset();
 }
 function selesai(){
     reLaunch.style.display="block";
+    wa2.style.display="block";
     finish.style.display="block";
     messageForm.style.display="none";
 }
