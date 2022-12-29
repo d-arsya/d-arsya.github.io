@@ -4,19 +4,18 @@ const form = document.forms['secret-message'];
 const reLaunch = document.querySelector(".reLaunch");
 const messageForm = document.querySelector(".messageForm");
 const finish = document.querySelector(".finish");
-const wa1 = document.querySelector(".wa1");
-const wa2 = document.querySelector(".wa2");
 const tip = document.querySelector(".minutes");
 const loading = document.querySelector(".btn");
 const jamKirim = document.querySelector("#time");
 const jam = document.querySelector('.jam');
+const quote = document.querySelector('.quote');
+const author = document.querySelector('.author');
 let menit = Math.floor(Math.random() * 59) + 1;
 tip.innerHTML=menit;
 
 setInterval(realTime, 1000);
 
 form.addEventListener('submit', e => {
-    wa1.style.display="none";
     loading.classList.toggle("hide");
     e.preventDefault()
     jamKirim.value=jam.textContent;
@@ -50,14 +49,30 @@ function normal(){
     loading.classList.toggle("hide");
     reLaunch.style.display="none";
     finish.style.display="none";
-    wa2.style.display="none";
-    wa1.style.display="block";
     messageForm.style.display="block";
+    randomQuotes()
     form.reset();
 }
 function selesai(){
     reLaunch.style.display="block";
-    wa2.style.display="block";
     finish.style.display="block";
     messageForm.style.display="none";
 }
+
+function randomQuotes (){
+    $.getJSON('https://api.quotable.io/random?minLength=70&maxLength=130', function(data) {
+        setTimeout(function(){
+            quote.classList.toggle("animeQuote");
+            author.classList.toggle("animeQuote");
+            quote.innerHTML = `"${data.content}"`
+            author.innerHTML = data.author
+        },1800)
+        setTimeout(function(){
+            quote.classList.toggle("animeQuote");
+            author.classList.toggle("animeQuote");
+
+        },2800)
+    });
+}
+randomQuotes()
+setInterval(randomQuotes,7000)
