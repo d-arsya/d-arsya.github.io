@@ -50,7 +50,6 @@ function normal(){
     reLaunch.style.display="none";
     finish.style.display="none";
     messageForm.style.display="block";
-    randomQuotes()
     form.reset();
 }
 function selesai(){
