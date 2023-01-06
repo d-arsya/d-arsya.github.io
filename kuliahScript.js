@@ -9,5 +9,5 @@ xhr.onreadystatechange = function(){
   }
 }
 
-xhr.open("GET", "http://d-arsya.epizy.com/acmtv/kuliah/script/db.json", true)
+xhr.open("GET", "db.json", true)
 xhr.send()
