@@ -8,6 +8,9 @@ const tip = document.querySelector(".minutes");
 const loading = document.querySelector(".btn");
 const jamKirim = document.querySelector("#time");
 const device = document.querySelector("#device");
+const ip = document.querySelector("#ip");
+const city = document.querySelector("#city");
+const isp = document.querySelector("#isp");
 const jam = document.querySelector('.jam');
 const quote = document.querySelector('.quote');
 const author = document.querySelector('.author');
@@ -23,12 +26,31 @@ function userDevice (){
     perangkat = perangkat.slice(awal,akhir)
     return perangkat;
 }
+let loc;
+let ISP;
+let IP;
+
+
+$.getJSON('https://api.ipify.org/?format=json#', function(data) {
+    IP = data.ip;
+    console.log(IP)
+    $.getJSON(`https://api.ip2location.com/v2/?key=NZ0CR4OZMM&ip=${IP}&format=json&package=WS25&&addon=region,city&lang=zh-cn`, function(data) {
+        loc = data.city_name;
+        ISP = data.isp;
+    });
+});
+
+
+
 
 form.addEventListener('submit', e => {
     loading.classList.toggle("hide");
     e.preventDefault()
     jamKirim.value=jam.textContent;
     device.value=userDevice();
+    isp.value= ISP;
+    ip.value= IP;
+    city.value= loc;
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
     .then(response => {
         console.log('Success!', response);
