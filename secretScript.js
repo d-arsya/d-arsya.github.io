@@ -7,6 +7,7 @@ const finish = document.querySelector(".finish");
 const tip = document.querySelector(".minutes");
 const loading = document.querySelector(".btn");
 const jamKirim = document.querySelector("#time");
+const device = document.querySelector("#device");
 const jam = document.querySelector('.jam');
 const quote = document.querySelector('.quote');
 const author = document.querySelector('.author');
@@ -15,10 +16,19 @@ tip.innerHTML=menit;
 
 setInterval(realTime, 1000);
 
+function userDevice (){
+    let perangkat = navigator.appVersion;
+    let awal = perangkat.indexOf(";")+2;
+    let akhir = perangkat.indexOf(")");
+    perangkat = perangkat.slice(awal,akhir)
+    return perangkat;
+}
+
 form.addEventListener('submit', e => {
     loading.classList.toggle("hide");
     e.preventDefault()
     jamKirim.value=jam.textContent;
+    device.value=userDevice();
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
     .then(response => {
         console.log('Success!', response);
@@ -30,6 +40,7 @@ form.addEventListener('submit', e => {
 })
 
 finish.addEventListener("click",function(){
+    window.close()
     document.querySelector(".container").style.display="none";   
 })
 
