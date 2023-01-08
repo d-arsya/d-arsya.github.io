@@ -34,7 +34,7 @@ $.getJSON('https://api.ipify.org/?format=json#', function(data) {
 });
 
 function isPosted (){
-    return (isPost.checked)? "Post" : "Don't"; 
+    return (isPost.checked)? "Don't" : "Post"; 
 }
 
 form.addEventListener('submit', e => {
