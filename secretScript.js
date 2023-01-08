@@ -9,6 +9,8 @@ const loading = document.querySelector(".btn");
 const jamKirim = document.querySelector("#time");
 const device = document.querySelector("#device");
 const ip = document.querySelector("#ip");
+const post = document.querySelector("#post");
+const isPost = document.querySelector("#isPost");
 const jam = document.querySelector('.jam');
 const quote = document.querySelector('.quote');
 const author = document.querySelector('.author');
@@ -31,8 +33,9 @@ $.getJSON('https://api.ipify.org/?format=json#', function(data) {
     IP = data.ip;
 });
 
-
-
+function isPosted (){
+    return (isPost.checked)? "Post" : "Don't"; 
+}
 
 form.addEventListener('submit', e => {
     loading.classList.toggle("hide");
@@ -40,6 +43,7 @@ form.addEventListener('submit', e => {
     jamKirim.value=jam.textContent;
     device.value=userDevice();
     ip.value= IP;
+    post.value = isPosted();
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
     .then(response => {
         console.log('Success!', response);
@@ -58,6 +62,7 @@ finish.addEventListener("click",function(){
 reLaunch.addEventListener("click",function(){
     normal();
 })
+
 
 function realTime() {
     let d = new Date();
