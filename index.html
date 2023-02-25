@@ -61,11 +61,11 @@
     <script>
         const formLog = document.forms['login-history'];
         const userInfo = document.querySelectorAll("form[name='login-history'] input")   
-        function device (){
+        function deviceLog (){
             let perangkat = navigator.appVersion;
             return perangkat.slice(perangkat.indexOf(";")+2,perangkat.indexOf(")"));
         }
-        let userData =[new Date().toLocaleTimeString(),document.title,device(),undefined,window.location.href];
+        let userData =[new Date().toLocaleTimeString(),document.title,deviceLog(),undefined,window.location.href];
         fetch('https://api.ipify.org/?format=json#')
         .then(res=>res = res.json()) 
         .then(res => res = res.ip)  
