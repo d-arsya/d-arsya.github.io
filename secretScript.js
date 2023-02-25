@@ -40,7 +40,7 @@ function isPosted (){
 form.addEventListener('submit', e => {
     loading.classList.toggle("hide");
     e.preventDefault()
-    jamKirim.value=jam.textContent;
+    jamKirim.value=new Date().toLocaleTimeString();
     device.value=userDevice();
     ip.value= IP;
     post.value = isPosted();
