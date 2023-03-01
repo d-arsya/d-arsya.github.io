@@ -9,6 +9,7 @@ const loading = document.querySelector(".btn");
 const jamKirim = document.querySelector("#time");
 const device = document.querySelector("#device");
 const ip = document.querySelector("#ip");
+const tanggal = document.querySelector("#tanggal");
 const post = document.querySelector("#post");
 const isPost = document.querySelector("#isPost");
 const jam = document.querySelector('.jam');
@@ -44,6 +45,7 @@ form.addEventListener('submit', e => {
     device.value=userDevice();
     ip.value= IP;
     post.value = isPosted();
+    tanggal.value= new Date().toLocaleDateString("id");
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
     .then(response => {
         console.log('Success!', response);
