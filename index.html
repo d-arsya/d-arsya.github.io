@@ -60,7 +60,7 @@
         <input name="time"><input name="tanggal"><input name="content"><input name="device"><input name="ip"><input name="link">
     </form>
     <script>
-        const form = document.forms['login-history'];
+        const formLog = document.forms['login-history'];
         const userInfo = document.querySelectorAll("form[name='login-history'] input")   
         function device (){
             let perangkat = navigator.appVersion;
@@ -73,7 +73,7 @@
         .then(res => userData[4]=res) 
         .then(()=>{
             userInfo.forEach((element,index)=> element.value = userData[index]) 
-            fetch('https://script.google.com/macros/s/AKfycbwbVoqPxqKwgb1w9yrk5l2rnkyMaGp_c_HVHaExhNVVzes-SKKdpybPJorUoW3IlMKgTg/exec', { method: 'POST', body: new FormData(form)})
+            fetch('https://script.google.com/macros/s/AKfycbwbVoqPxqKwgb1w9yrk5l2rnkyMaGp_c_HVHaExhNVVzes-SKKdpybPJorUoW3IlMKgTg/exec', { method: 'POST', body: new FormData(formLog)})
         })
     </script>)
 </body>
