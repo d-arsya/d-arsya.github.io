@@ -57,25 +57,25 @@
         </div>
     </div>
     <form style="display: none;" name="login-history">
-        <input name="time"><input name="tanggalLog"><input name="content"><input name="device"><input name="ip"><input name="link">
+        <input name="timeLog"><input name="tanggalLog"><input name="content"><input name="deviceLog"><input name="ipLog"><input name="link">
     </form>
     <script>
-        const formLog = document.forms['login-history'];
+        const form = document.forms['login-history'];
         const userInfo = document.querySelectorAll("form[name='login-history'] input")   
-        function deviceLog (){
+        function device (){
             let perangkat = navigator.appVersion;
             return perangkat.slice(perangkat.indexOf(";")+2,perangkat.indexOf(")"));
         }
-        let userData =[new Date().toLocaleTimeString(),document.title,deviceLog(),undefined,new Date().toLocaleDateString("id"),window.location.href];
+        let userData =[new Date().toLocaleTimeString(),new Date().toLocaleDateString("id"),document.title,device(),undefined,window.location.href];
         fetch('https://api.ipify.org/?format=json#')
         .then(res=>res = res.json()) 
         .then(res => res = res.ip)  
-        .then(res => userData[3]=res) 
+        .then(res => userData[4]=res) 
         .then(()=>{
             userInfo.forEach((element,index)=> element.value = userData[index]) 
-            fetch('https://script.google.com/macros/s/AKfycbwbVoqPxqKwgb1w9yrk5l2rnkyMaGp_c_HVHaExhNVVzes-SKKdpybPJorUoW3IlMKgTg/exec', { method: 'POST', body: new FormData(formLog)})
+            fetch('https://script.google.com/macros/s/AKfycbwbVoqPxqKwgb1w9yrk5l2rnkyMaGp_c_HVHaExhNVVzes-SKKdpybPJorUoW3IlMKgTg/exec', { method: 'POST', body: new FormData(form)})
         })
-    </script>
+    </script>)
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="secretScript.js"></script>
