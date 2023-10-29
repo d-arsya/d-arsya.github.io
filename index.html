@@ -1,61 +1,163 @@
-const selfButtonOne = document.getElementById("selfButtonOne")
-const stopOne = document.getElementById("stopOne")
-const buttonOneCons = document.getElementById("buttonOneCons")
-const selfButtonTwo = document.getElementById("selfButtonTwo")
-const stopTwo = document.getElementById("stopTwo")
-const buttonTwoCons = document.getElementById("buttonTwoCons")
-const mulai = document.getElementById("mulai")
-let stat = 1
-selfButtonOne.addEventListener("click", function () {
-    if (buttonOneCons.checked) {
-        clearInterval(stat)
-    } else {
-        buttonOneCons.checked = true
-        stat = setInterval(stopwatchOne,10)
-    }
-})
-let stat2 = 1
-selfButtonTwo.addEventListener("click", function () {
-    if (buttonTwoCons.checked) {
-        clearInterval(stat2)
-    } else {
-        buttonTwoCons.checked = true
-        stat2 = setInterval(stopwatchTwo,10)
-    }
-})
-mulai.addEventListener("click", function () {
-    selfButtonOne.click()
-    selfButtonTwo.click()
-    selfButtonOne.style.display="inline"
-    selfButtonTwo.style.display = "inline"
-    mulai.style.display = "none"
-    
-})
-  let m = 0;
-  let s = 0;
-  let ms = 0;
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stopwatch LF</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container overview text-center py-5">
+      <div class="row print">
+        <div class="col-sm-6 mt-3 mt-sm-0">
+          <div class="card">
+            <div class="card-body">
+              <select
+                class="form-select mb-3 text-center"
+                aria-label="Default select example"
+              >
+                <option selected>Nama Tim</option>
+                <option value="1">A</option>
+                <option value="2">B</option>
+                <option value="3">C</option>
+              </select>
+              <h3 id="stopOne">
+                <span class="menit">00</span> : <span class="detik">00</span> :
+                <span class="mili">00</span>
+              </h3>
+              <input
+                type="checkbox"
+                name="buttonOneCons"
+                id="buttonOneCons"
+                style="display: none"
+              />
+              <input
+                type="button"
+                id="selfButtonOne"
+                class="btn btn-warning"
+                value="Finish"
+                style="display: none"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 mt-3 mt-sm-0">
+          <div class="card">
+            <div class="card-body">
+              <select
+                class="form-select mb-3 text-center"
+                aria-label="Default select example"
+              >
+                <option selected>Nama Tim</option>
+                <option value="1">A</option>
+                <option value="2">B</option>
+                <option value="3">C</option>
+              </select>
+              <h3 id="stopTwo">00 : 00 : 00</h3>
+              <input
+                type="checkbox"
+                name="buttonTwoCons"
+                id="buttonTwoCons"
+                style="display: none"
+              />
+              <input
+                type="button"
+                id="selfButtonTwo"
+                class="btn btn-warning"
+                value="Finish"
+                style="display: none"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="mulai" class="row print py-5">
+        <div class="col-sm-12 mt-3 mt-sm-0">
+          <div class="card">
+            <div class="card-body">
+              <h3>Mulai</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="index.js"></script> -->
+    <script>
+      const selfButtonOne = document.getElementById("selfButtonOne");
+      const stopOne = document.getElementById("stopOne");
+      const buttonOneCons = document.getElementById("buttonOneCons");
+      const selfButtonTwo = document.getElementById("selfButtonTwo");
+      const stopTwo = document.getElementById("stopTwo");
+      const buttonTwoCons = document.getElementById("buttonTwoCons");
+      const mulai = document.getElementById("mulai");
+      let stat = 1;
+      selfButtonOne.addEventListener("click", function () {
+        if (buttonOneCons.checked) {
+          clearInterval(stat);
+        } else {
+          buttonOneCons.checked = true;
+          stat = setInterval(stopwatchOne, 10);
+        }
+      });
+      let stat2 = 1;
+      selfButtonTwo.addEventListener("click", function () {
+        if (buttonTwoCons.checked) {
+          clearInterval(stat2);
+        } else {
+          buttonTwoCons.checked = true;
+          stat2 = setInterval(stopwatchTwo, 10);
+        }
+      });
+      mulai.addEventListener("click", function () {
+        selfButtonOne.click();
+        selfButtonTwo.click();
+        selfButtonOne.style.display = "inline";
+        selfButtonTwo.style.display = "inline";
+        mulai.style.display = "none";
+      });
+      let m = 0;
+      let s = 0;
+      let ms = 0;
 
-function stopwatchOne(){
-  ms += 1;
-  if(ms>99){
-    s += 1;
-    ms = 0;
-  }
-  if(s>59){
-    m += 1;
-    s = 0;
-  }
-  stopOne.innerHTML = `${m} : ${s} : ${ms}`;
-}
-function stopwatchTwo(){
-  ms += 1;
-  if(ms>99){
-    s += 1;
-    ms = 0;
-  }
-  if(s>59){
-    m += 1;
-    s = 0;
-  }
-  stopTwo.innerHTML = `${m} : ${s} : ${ms}`;
-}
+      function stopwatchOne() {
+        ms += 1;
+        if (ms > 99) {
+          s += 1;
+          ms = 0;
+        }
+        if (s > 59) {
+          m += 1;
+          s = 0;
+        }
+        stopOne.innerHTML = `${m} : ${s} : ${ms}`;
+      }
+      function stopwatchTwo() {
+        ms += 1;
+        if (ms > 99) {
+          s += 1;
+          ms = 0;
+        }
+        if (s > 59) {
+          m += 1;
+          s = 0;
+        }
+        stopTwo.innerHTML = `${m} : ${s} : ${ms}`;
+      }
+    </script>
+  </body>
+</html>
