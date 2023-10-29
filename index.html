@@ -1,0 +1,61 @@
+const selfButtonOne = document.getElementById("selfButtonOne")
+const stopOne = document.getElementById("stopOne")
+const buttonOneCons = document.getElementById("buttonOneCons")
+const selfButtonTwo = document.getElementById("selfButtonTwo")
+const stopTwo = document.getElementById("stopTwo")
+const buttonTwoCons = document.getElementById("buttonTwoCons")
+const mulai = document.getElementById("mulai")
+let stat = 1
+selfButtonOne.addEventListener("click", function () {
+    if (buttonOneCons.checked) {
+        clearInterval(stat)
+    } else {
+        buttonOneCons.checked = true
+        stat = setInterval(stopwatchOne,10)
+    }
+})
+let stat2 = 1
+selfButtonTwo.addEventListener("click", function () {
+    if (buttonTwoCons.checked) {
+        clearInterval(stat2)
+    } else {
+        buttonTwoCons.checked = true
+        stat2 = setInterval(stopwatchTwo,10)
+    }
+})
+mulai.addEventListener("click", function () {
+    selfButtonOne.click()
+    selfButtonTwo.click()
+    selfButtonOne.style.display="inline"
+    selfButtonTwo.style.display = "inline"
+    mulai.style.display = "none"
+    
+})
+  let m = 0;
+  let s = 0;
+  let ms = 0;
+
+function stopwatchOne(){
+  ms += 1;
+  if(ms>99){
+    s += 1;
+    ms = 0;
+  }
+  if(s>59){
+    m += 1;
+    s = 0;
+  }
+  stopOne.innerHTML = `${m} : ${s} : ${ms}`;
+}
+function stopwatchTwo(){
+  ms += 1;
+  if(ms>99){
+    s += 1;
+    ms = 0;
+  }
+  if(s>59){
+    m += 1;
+    s = 0;
+  }
+  stopTwo.innerHTML = `${m} : ${s} : ${ms}`;
+}
