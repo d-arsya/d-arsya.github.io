@@ -97,10 +97,13 @@ const pinButton = document.querySelectorAll(".pinButton");
 const startButton = document.getElementById("startButton");
 let stopBut = 1;
 // tombol mulai
-startButton.addEventListener(
-  "click",
-  () => (stopBut = setInterval(stopwatch, 20))
-);
+startButton.addEventListener("click", () => {
+  stopBut = setInterval(stopwatch, 20);
+  startButton.style.display = "none";
+  pinButton.forEach((e) => (e.style.visibility = "visible"));
+});
+
+alert("Spasi\t\tMulai\nPanah Kiri\t\tTeam 1\nPanah Kanan\t\tTeam 2");
 
 // cekpoin awal
 let cekStat = [1, 1];
@@ -124,7 +127,7 @@ function finishButton(ind) {
   let baru = document.createElement("h3");
   baru.innerHTML = timeStop[ind].innerHTML;
   timeStop[ind].parentNode.replaceChild(baru, timeStop[ind]);
-  pinButton[ind].style.display = "none";
+  pinButton[ind].style.visibility = "hidden";
 }
 
 // stopwatch awal
@@ -147,8 +150,6 @@ function stopwatch() {
         .toString()
         .padStart(2, "0")} : ${realTime[0].toString().padStart(2, "0")}`)
   );
-  startButton.style.display = "none";
-  pinButton.forEach((e) => (e.style.visibility = "visible"));
 }
 
 function selesai() {
@@ -156,6 +157,12 @@ function selesai() {
   pinButton.forEach((e) => (startu = e.style.display == "none" ? true : false));
   return startu;
 }
+
+document.addEventListener("keyup", (e) => {
+  e.key == "ArrowLeft" ? pinButton[0].click() : console.log();
+  e.key == "ArrowRight" ? pinButton[1].click() : console.log();
+  e.key == " " ? startButton.click() : console.log();
+});
 
     </script>
   </body>
