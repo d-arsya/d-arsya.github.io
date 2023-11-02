@@ -95,10 +95,11 @@
 const cekText = document.querySelectorAll(".cekText");
 const pinButton = document.querySelectorAll(".pinButton");
 const startButton = document.getElementById("startButton");
-let stopBut = 1;
+const checkPoint = 4;
+let stopButton = 1;
 // tombol mulai
 startButton.addEventListener("click", () => {
-  stopBut = setInterval(stopwatch, 20);
+  stopButton = setInterval(stopwatch, 20);
   startButton.style.display = "none";
   pinButton.forEach((e) => (e.style.visibility = "visible"));
 });
@@ -117,8 +118,8 @@ pinButton.forEach((i, f) => {
         ? `<div class="card my-3 text-start"><div class="card-body"><h3>Finish</h3><h4>${timeStop[f].innerHTML}</h4></div></div>`
         : `<div class="card my-3 text-start"><div class="card-body"><h3>Checkpoint ${cekStat[f]}</h3><h4>${timeStop[f].innerHTML}</h4></div></div>`;
     cekStat[f] += 1;
-    i.innerHTML = cekStat[f] > 3 ? "Finish" : "Checkpoint";
-    selesai() ? clearInterval(stopBut) : console.log();
+    i.innerHTML = cekStat[f] > checkPoint ? "Finish" : "Checkpoint";
+    selesai() ? clearInterval(stopButton) : console.log();
   });
 });
 
