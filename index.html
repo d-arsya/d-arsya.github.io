@@ -10,60 +10,108 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Open+Sans:wght@600&display=swap");
+      * {
+        font-family: "Open Sans", sans-serif;
+      }
+      .bod {
+        background-color: #173645;
+        background-image: url("pattern.svg");
+      }
+      .leftCard,
+      .rightCard {
+        border: none;
+        font-weight: 500;
+        color: white;
+      }
+      #startButton .card {
+        background-color: #ffb803;
+        color: white;
+        box-shadow: -2px -1px 17px 1px rgba(255, 183, 3, 0.8);
+        -webkit-box-shadow: -2px -1px 17px 1px rgba(255, 183, 3, 0.8);
+        -moz-box-shadow: -2px -1px 17px 1px rgba(255, 183, 3, 0.8);
+      }
+      .bgUtama {
+        position: fixed;
+        width: 30vw;
+        left: 35vw;
+        top: 10vh;
+      }
+      .rightCard {
+        background: linear-gradient(
+          235deg,
+          rgba(216, 17, 89, 1) 0%,
+          rgba(236, 139, 51, 1) 100%
+        );
+      }
+      .leftCard {
+        background: linear-gradient(
+          135deg,
+          rgba(216, 17, 89, 1) 0%,
+          rgba(236, 139, 51, 1) 100%
+        );
+      }
+      .stopPoint,
+      p {
+        font-family: "Black Han Sans";
+      }
+    </style>
   </head>
-  <body>
-    <div class="container text-center py-5">
+  <body class="bod">
+    <img class="bgUtama" src="logo.png" alt="" />
+    <div class="container text-center pt-5">
       <div class="row">
         <div class="col-sm-6 mt-3 mt-sm-0">
-          <div class="card">
+          <div class="card leftCard">
             <div class="card-body">
               <select
-                class="form-select mb-3 text-center"
+                id="namaTim1"
+                class="form-select text-center"
                 aria-label="Default select example"
+                style="background-color: #173645; border: none; color: white"
               >
-                <option selected>Nama Tim</option>
-                <option value="1">Bleged</option>
-                <option value="2">B</option>
-                <option value="3">C</option>
+                <option>Nama Tim</option>
+                <option value="Bleged">Bleged</option>
+                <option value="Bleged">B</option>
+                <option value="Bleged">C</option>
               </select>
-              <h3 class="timeStop">00 : 00 : 00</h3>
-              <input type="checkbox" style="display: none" />
-              <label
-                ><div
-                  class="btn btn-warning pinButton"
-                  style="visibility: hidden"
-                >
-                  Checkpoint
-                </div></label
-              >
+              <p style="font-size: 70pt" class="timeStop">00 : 00 : 00</p>
             </div>
+          </div>
+          <div
+            class="btn btn-warning pinButton mt-2"
+            style="visibility: hidden"
+          >
+            Checkpoint
           </div>
         </div>
         <div class="col-sm-6 mt-3 mt-sm-0">
-          <div class="card">
+          <div class="card rightCard">
             <div class="card-body">
-              <select class="form-select mb-3 text-center">
-                <option selected>Nama Tim</option>
-                <option value="1">Voit</option>
-                <option value="2">B</option>
-                <option value="3">C</option>
-              </select>
-              <h3 class="timeStop">00 : 00 : 00</h3>
-              <input type="checkbox" style="display: none" />
-              <label
-                ><div
-                  class="btn btn-warning pinButton"
-                  style="visibility: hidden"
-                >
-                  Checkpoint
-                </div></label
+              <select
+                id="namaTim2"
+                class="form-select text-center"
+                style="background-color: #173645; border: none; color: white"
               >
+                <option>Nama Tim</option>
+                <option value="Voit">Voit</option>
+                <option value="Voit">B</option>
+                <option value="Voit">C</option>
+              </select>
+              <p style="font-size: 70pt" class="timeStop">00 : 00 : 00</p>
             </div>
+          </div>
+          <div
+            class="btn btn-warning pinButton mt-2"
+            style="visibility: hidden"
+          >
+            Checkpoint
           </div>
         </div>
       </div>
-      <div class="row py-5" id="startButton">
-        <div class="col-sm-12 mt-3 mt-sm-0">
+      <div class="row py-0" id="startButton">
+        <div class="col-sm-12 mt-1 mt-sm-0">
           <div class="card">
             <div class="card-body">
               <h3>Mulai</h3>
@@ -71,13 +119,20 @@
           </div>
         </div>
       </div>
+      <div style="display: none" class="row py-0" id="saveButton">
+        <!-- <div class="col-sm-12 mt-1 mt-sm-0">
+          <div class="card">
+            <div class="card-body">
+              <h3></h3>
+            </div>
+          </div>
+        </div> -->
+      </div>
     </div>
     <div class="container text-center">
       <div class="row">
-        <div class="col-sm-6 mt-3 mt-sm-0">
-          <div class="col-sm-12 mt-3 mt-sm-0 cekText"></div>
-        </div>
-        <div class="col-sm-6 mt-3 mt-sm-0 cekText"></div>
+        <div class="col-6 mt-1 cekText d-flex flex-column-reverse"></div>
+        <div class="col-6 mt-1 cekText d-flex flex-column-reverse"></div>
       </div>
     </div>
     <script
@@ -92,79 +147,110 @@
     ></script>
     <script>
       const timeStop = document.querySelectorAll(".timeStop");
-const cekText = document.querySelectorAll(".cekText");
-const pinButton = document.querySelectorAll(".pinButton");
-const startButton = document.getElementById("startButton");
-const checkPoint = 4;
-let stopButton = 1;
-// tombol mulai
-startButton.addEventListener("click", () => {
-  stopButton = setInterval(stopwatch, 20);
-  startButton.style.display = "none";
-  pinButton.forEach((e) => (e.style.visibility = "visible"));
-});
+      const cekText = document.querySelectorAll(".cekText");
+      const pinButton = document.querySelectorAll(".pinButton");
+      const startButton = document.getElementById("startButton");
+      const saveButton = document.getElementById("saveButton");
+      let babak = "penyisihan";
+      let stopBut = 1;
+      let dataWaktu = [[], []];
+      // tombol mulai
+      startButton.addEventListener("click", () => {
+        let namaTim1 = document.querySelector("#namaTim1").value;
+        let namaTim2 = document.querySelector("#namaTim2").value;
+        if (namaTim1 == "Nama Tim" || namaTim2 == "Nama Tim") {
+          alert("Pilih nama tim terlebih dahulu");
+          return;
+        }
+        stopBut = setInterval(stopwatch, 20);
+        startButton.style.display = "none";
+        pinButton.forEach((e) => (e.style.visibility = "visible"));
+      });
 
-alert("Spasi\t\tMulai\nPanah Kiri\t\tTeam 1\nPanah Kanan\t\tTeam 2");
+      // cekpoin awal
+      let cekStat = [1, 1];
 
-// cekpoin awal
-let cekStat = [1, 1];
+      // tombol cekpoin ditekan
+      pinButton.forEach((i, f) => {
+        i.addEventListener("click", (e) => {
+          i.innerHTML == "Finish" ? finishButton(f) : console.log();
+          cekText[f].innerHTML +=
+            i.innerHTML == "Finish"
+              ? `<div class="card ${
+                  f == 0 ? "leftCard" : "rightCard"
+                } my-3 text-start"><div class="card-body"><h3 class="stopPoint">Finish</h3><h4 class="stopPoint">${
+                  timeStop[f].innerHTML
+                }</h4></div></div>`
+              : `<div class="card ${
+                  f == 0 ? "leftCard" : "rightCard"
+                } my-3 text-start"><div class="card-body"><h3 class="stopPoint">Checkpoint ${
+                  cekStat[f]
+                }</h3><h4 class="stopPoint">${
+                  timeStop[f].innerHTML
+                }</h4></div></div>`;
+          cekStat[f] += 1;
+          dataWaktu[f].push(timeStop[f].innerHTML);
+          i.innerHTML = cekStat[f] > 3 ? "Finish" : "Checkpoint";
+          selesai() ? clearInterval(stopBut) : console.log();
+          saveButton.style.display =
+            pinButton[0].style.visibility == "hidden" &&
+            pinButton[1].style.visibility == "hidden"
+              ? "unset"
+              : "none";
+        });
+      });
+      // tombol finish ditekan
+      function finishButton(ind) {
+        let baru = document.createElement("p");
+        baru.style.fontSize = "70pt";
+        baru.innerHTML = timeStop[ind].innerHTML;
+        timeStop[ind].parentNode.replaceChild(baru, timeStop[ind]);
+        pinButton[ind].style.visibility = "hidden";
+      }
+      saveButton.addEventListener("click", () => {
+        // let namaTim1 = document.querySelector("#namaTim1").value;
+        // let namaTim2 = document.querySelector("#namaTim2").value;
+        // namaTim = [namaTim1, namaTim2];
+        // window.location.href = `view.php?waktu=${dataWaktu}&namaTim=${namaTim}`;
+        saveButton.style.display = "none";
+        window.print();
+      });
+      // stopwatch awal
+      let realTime = [0, 0, 0, 0];
+      function stopwatch() {
+        realTime[0] += 1;
+        if (realTime[0] > 99) {
+          realTime[1] += 1;
+          realTime[0] = 0;
+        }
+        if (realTime[1] > 59) {
+          realTime[2] += 1;
+          realTime[1] = 0;
+        }
+        realTime[3] += 1;
+        timeStop.forEach(
+          (e) =>
+            (e.innerHTML = `${realTime[2]
+              .toString()
+              .padStart(2, "0")} : ${realTime[1]
+              .toString()
+              .padStart(2, "0")} : ${realTime[0].toString().padStart(2, "0")}`)
+        );
+      }
 
-// tombol cekpoin ditekan
-pinButton.forEach((i, f) => {
-  i.addEventListener("click", (e) => {
-    i.innerHTML == "Finish" ? finishButton(f) : console.log();
-    cekText[f].innerHTML +=
-      i.innerHTML == "Finish"
-        ? `<div class="card my-3 text-start"><div class="card-body"><h3>Finish</h3><h4>${timeStop[f].innerHTML}</h4></div></div>`
-        : `<div class="card my-3 text-start"><div class="card-body"><h3>Checkpoint ${cekStat[f]}</h3><h4>${timeStop[f].innerHTML}</h4></div></div>`;
-    cekStat[f] += 1;
-    i.innerHTML = cekStat[f] > checkPoint ? "Finish" : "Checkpoint";
-    selesai() ? clearInterval(stopButton) : console.log();
-  });
-});
+      function selesai() {
+        let startu = true;
+        pinButton.forEach(
+          (e) => (startu = e.style.display == "none" ? true : false)
+        );
+        return startu;
+      }
 
-// tombol finish ditekan
-function finishButton(ind) {
-  let baru = document.createElement("h3");
-  baru.innerHTML = timeStop[ind].innerHTML;
-  timeStop[ind].parentNode.replaceChild(baru, timeStop[ind]);
-  pinButton[ind].style.visibility = "hidden";
-}
-
-// stopwatch awal
-let realTime = [0, 0, 0, 0];
-function stopwatch() {
-  realTime[0] += 1;
-  if (realTime[0] > 99) {
-    realTime[1] += 1;
-    realTime[0] = 0;
-  }
-  if (realTime[1] > 59) {
-    realTime[2] += 1;
-    realTime[1] = 0;
-  }
-  realTime[3] += 1;
-  console.log(realTime[3]);
-  timeStop.forEach(
-    (e) =>
-      (e.innerHTML = `${realTime[2].toString().padStart(2, "0")} : ${realTime[1]
-        .toString()
-        .padStart(2, "0")} : ${realTime[0].toString().padStart(2, "0")}`)
-  );
-}
-
-function selesai() {
-  let startu = true;
-  pinButton.forEach((e) => (startu = e.style.display == "none" ? true : false));
-  return startu;
-}
-
-document.addEventListener("keyup", (e) => {
-  e.key == "ArrowLeft" ? pinButton[0].click() : console.log();
-  e.key == "ArrowRight" ? pinButton[1].click() : console.log();
-  e.key == " " ? startButton.click() : console.log();
-});
-
+      document.addEventListener("keyup", (e) => {
+        e.key == "ArrowLeft" ? pinButton[0].click() : console.log();
+        e.key == "ArrowRight" ? pinButton[1].click() : console.log();
+        e.key == " " ? startButton.click() : console.log();
+      });
     </script>
   </body>
 </html>
