@@ -173,6 +173,7 @@
       // tombol cekpoin ditekan
       pinButton.forEach((i, f) => {
         i.addEventListener("click", (e) => {
+          startButton.style.display != "none"?return:console.log();
           i.innerHTML == "Finish" ? finishButton(f) : console.log();
           cekText[f].innerHTML +=
             i.innerHTML == "Finish"
@@ -207,14 +208,6 @@
         timeStop[ind].parentNode.replaceChild(baru, timeStop[ind]);
         pinButton[ind].style.visibility = "hidden";
       }
-      saveButton.addEventListener("click", () => {
-        // let namaTim1 = document.querySelector("#namaTim1").value;
-        // let namaTim2 = document.querySelector("#namaTim2").value;
-        // namaTim = [namaTim1, namaTim2];
-        // window.location.href = `view.php?waktu=${dataWaktu}&namaTim=${namaTim}`;
-        saveButton.style.display = "none";
-        window.print();
-      });
       // stopwatch awal
       let realTime = [0, 0, 0, 0];
       function stopwatch() {
