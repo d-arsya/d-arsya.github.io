@@ -211,6 +211,7 @@
       const pinButton = document.querySelectorAll(".pinButton");
       const startButton = document.getElementById("startButton");
       const saveButton = document.getElementById("saveButton");
+      const opsi = document.querySelectorAll("select");
       let babak = "penyisihan";
       let stopBut = 1;
       let dataWaktu = [[], []];
@@ -309,6 +310,11 @@
         e.key == "ArrowRight" ? pinButton[1].click() : console.log();
         e.key == " " ? startButton.click() : console.log();
       });
+      opsi.forEach((e) => {
+      e.addEventListener("change", (f) => {
+      f.target.setAttribute("disabled", "true");
+  });
+});
     </script>
   </body>
 </html>
