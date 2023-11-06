@@ -174,7 +174,7 @@
       // tombol cekpoin ditekan
       pinButton.forEach((i, f) => {
         i.addEventListener("click", (e) => {
-          startButton.style.display != "none"?break:console.log();
+          startButton.style.display != "none"?continue:console.log();
           i.innerHTML == "Finish" ? finishButton(f) : console.log();
           cekText[f].innerHTML +=
             i.innerHTML == "Finish"
