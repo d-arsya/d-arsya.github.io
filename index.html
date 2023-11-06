@@ -10,7 +10,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="icon" type="image/x-icon" href="logo (1).png">
+    <link rel="icon" type="image/x-icon" href="logo (1).png" />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Open+Sans:wght@600&display=swap");
       * {
@@ -177,18 +177,22 @@
       // tombol cekpoin ditekan
       pinButton.forEach((i, f) => {
         i.addEventListener("click", (e) => {
-          if(startButton.style.display == "none"){
+          if (startButton.style.display == "none") {
             i.innerHTML == "Finish" ? finishButton(f) : console.log();
             cekText[f].innerHTML +=
               i.innerHTML == "Finish"
                 ? `<div class="card ${
                     f == 0 ? "leftCard" : "rightCard"
-                  } my-3 text-start"><div class="card-body"><h3 class="stopPoint">Finish</h3><h4 class="stopPoint">${
+                  } my-3 text-${
+                    f == 0 ? "start" : "end"
+                  }"><div class="card-body"><h3 class="stopPoint">Finish</h3><h4 class="stopPoint">${
                     timeStop[f].innerHTML
                   }</h4></div></div>`
                 : `<div class="card ${
                     f == 0 ? "leftCard" : "rightCard"
-                  } my-3 text-start"><div class="card-body"><h3 class="stopPoint">Checkpoint ${
+                  } my-3 text-${
+                    f == 0 ? "start" : "end"
+                  }"><div class="card-body"><h3 class="stopPoint">Checkpoint ${
                     cekStat[f]
                   }</h3><h4 class="stopPoint">${
                     timeStop[f].innerHTML
@@ -202,7 +206,7 @@
               pinButton[1].style.visibility == "hidden"
                 ? "unset"
                 : "none";
-          };
+          }
         });
       });
       // tombol finish ditekan
