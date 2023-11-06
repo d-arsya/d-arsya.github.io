@@ -174,31 +174,32 @@
       // tombol cekpoin ditekan
       pinButton.forEach((i, f) => {
         i.addEventListener("click", (e) => {
-          startButton.style.display != "none"?continue:console.log();
-          i.innerHTML == "Finish" ? finishButton(f) : console.log();
-          cekText[f].innerHTML +=
-            i.innerHTML == "Finish"
-              ? `<div class="card ${
-                  f == 0 ? "leftCard" : "rightCard"
-                } my-3 text-start"><div class="card-body"><h3 class="stopPoint">Finish</h3><h4 class="stopPoint">${
-                  timeStop[f].innerHTML
-                }</h4></div></div>`
-              : `<div class="card ${
-                  f == 0 ? "leftCard" : "rightCard"
-                } my-3 text-start"><div class="card-body"><h3 class="stopPoint">Checkpoint ${
-                  cekStat[f]
-                }</h3><h4 class="stopPoint">${
-                  timeStop[f].innerHTML
-                }</h4></div></div>`;
-          cekStat[f] += 1;
-          dataWaktu[f].push(timeStop[f].innerHTML);
-          i.innerHTML = cekStat[f] > 3 ? "Finish" : "Checkpoint";
-          selesai() ? clearInterval(stopBut) : console.log();
-          saveButton.style.display =
-            pinButton[0].style.visibility == "hidden" &&
-            pinButton[1].style.visibility == "hidden"
-              ? "unset"
-              : "none";
+          if(startButton.style.display != "none"){
+            i.innerHTML == "Finish" ? finishButton(f) : console.log();
+            cekText[f].innerHTML +=
+              i.innerHTML == "Finish"
+                ? `<div class="card ${
+                    f == 0 ? "leftCard" : "rightCard"
+                  } my-3 text-start"><div class="card-body"><h3 class="stopPoint">Finish</h3><h4 class="stopPoint">${
+                    timeStop[f].innerHTML
+                  }</h4></div></div>`
+                : `<div class="card ${
+                    f == 0 ? "leftCard" : "rightCard"
+                  } my-3 text-start"><div class="card-body"><h3 class="stopPoint">Checkpoint ${
+                    cekStat[f]
+                  }</h3><h4 class="stopPoint">${
+                    timeStop[f].innerHTML
+                  }</h4></div></div>`;
+            cekStat[f] += 1;
+            dataWaktu[f].push(timeStop[f].innerHTML);
+            i.innerHTML = cekStat[f] > 3 ? "Finish" : "Checkpoint";
+            selesai() ? clearInterval(stopBut) : console.log();
+            saveButton.style.display =
+              pinButton[0].style.visibility == "hidden" &&
+              pinButton[1].style.visibility == "hidden"
+                ? "unset"
+                : "none";
+          };
         });
       });
       // tombol finish ditekan
