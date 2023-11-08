@@ -308,7 +308,7 @@
       document.addEventListener("keyup", (e) => {
         e.key == "ArrowLeft" ? pinButton[0].click() : console.log();
         e.key == "ArrowRight" ? pinButton[1].click() : console.log();
-        e.key == " " ? startButton.click() : console.log();
+        e.key == " " && startButton.style.display!="none" ? startButton.click() : console.log();
       });
       opsi.forEach((e) => {
       e.addEventListener("change", (f) => {
