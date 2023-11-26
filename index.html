@@ -207,114 +207,110 @@
     ></script>
     <script>
       const timeStop = document.querySelectorAll(".timeStop");
-      const cekText = document.querySelectorAll(".cekText");
-      const pinButton = document.querySelectorAll(".pinButton");
-      const startButton = document.getElementById("startButton");
-      const saveButton = document.getElementById("saveButton");
-      const opsi = document.querySelectorAll("select");
-      let babak = "penyisihan";
-      let stopBut = 1;
-      let dataWaktu = [[], []];
-      // tombol mulai
-      startButton.addEventListener("click", () => {
-        let namaTim1 = document.querySelector("#namaTim1").value;
-        let namaTim2 = document.querySelector("#namaTim2").value;
-        if (namaTim1 == "Nama Tim" || namaTim2 == "Nama Tim") {
-          alert("Pilih nama tim terlebih dahulu");
-          return;
-        }
-        stopBut = setInterval(stopwatch, 10);
-        startButton.style.display = "none";
-        pinButton.forEach((e) => (e.style.visibility = "visible"));
-      });
+const cekText = document.querySelectorAll(".cekText");
+const pinButton = document.querySelectorAll(".pinButton");
+const startButton = document.getElementById("startButton");
+const saveButton = document.getElementById("saveButton");
+const opsi = document.querySelectorAll("select");
+let babak = "penyisihan";
+let stopBut = 1;
+const checkpoint = 4;
+let dataWaktu = [[], []];
+// tombol mulai
+startButton.addEventListener("click", () => {
+  let namaTim1 = document.querySelector("#namaTim1").value;
+  let namaTim2 = document.querySelector("#namaTim2").value;
+  if (namaTim1 == "Nama Tim" || namaTim2 == "Nama Tim") {
+    alert("Pilih nama tim terlebih dahulu");
+    return;
+  }
+  stopBut = setInterval(stopwatch, 10);
+  startButton.style.display = "none";
+  pinButton.forEach((e) => (e.style.visibility = "visible"));
+});
 
-      // cekpoin awal
-      let cekStat = [1, 1];
+// cekpoin awal
+let cekStat = [1, 1];
 
-      // tombol cekpoin ditekan
-      pinButton.forEach((i, f) => {
-        i.addEventListener("click", (e) => {
-          if (startButton.style.display == "none") {
-            i.innerHTML == "Finish" ? finishButton(f) : console.log();
-            cekText[f].innerHTML +=
-              i.innerHTML == "Finish"
-                ? `<div class="card ${
-                    f == 0 ? "leftCard" : "rightCard"
-                  } my-3 text-${
-                    f == 0 ? "start" : "end"
-                  }"><div class="card-body"><h3 class="stopPoint">Finish</h3><h4 class="stopPoint">${
-                    timeStop[f].innerHTML
-                  }</h4></div></div>`
-                : `<div class="card ${
-                    f == 0 ? "leftCard" : "rightCard"
-                  } my-3 text-${
-                    f == 0 ? "start" : "end"
-                  }"><div class="card-body"><h3 class="stopPoint">Checkpoint ${
-                    cekStat[f]
-                  }</h3><h4 class="stopPoint">${
-                    timeStop[f].innerHTML
-                  }</h4></div></div>`;
-            cekStat[f] += 1;
-            dataWaktu[f].push(timeStop[f].innerHTML);
-            i.innerHTML = cekStat[f] > 3 ? "Finish" : "Checkpoint";
-            selesai() ? clearInterval(stopBut) : console.log();
-            saveButton.style.display =
-              pinButton[0].style.visibility == "hidden" &&
-              pinButton[1].style.visibility == "hidden"
-                ? "unset"
-                : "none";
-          }
-        });
-      });
-      // tombol finish ditekan
-      function finishButton(ind) {
-        let baru = document.createElement("p");
-        baru.style.fontSize = "70pt";
-        baru.innerHTML = timeStop[ind].innerHTML;
-        timeStop[ind].parentNode.replaceChild(baru, timeStop[ind]);
-        pinButton[ind].style.visibility = "hidden";
-      }
-      // stopwatch awal
-      let realTime = [0, 0, 0, 0];
-      function stopwatch() {
-        realTime[0] += 1;
-        if (realTime[0] > 99) {
-          realTime[1] += 1;
-          realTime[0] = 0;
-        }
-        if (realTime[1] > 59) {
-          realTime[2] += 1;
-          realTime[1] = 0;
-        }
-        realTime[3] += 1;
-        timeStop.forEach(
-          (e) =>
-            (e.innerHTML = `${realTime[2]
-              .toString()
-              .padStart(2, "0")} : ${realTime[1]
-              .toString()
-              .padStart(2, "0")} : ${realTime[0].toString().padStart(2, "0")}`)
-        );
-      }
-
-      function selesai() {
-        let startu = true;
-        pinButton.forEach(
-          (e) => (startu = e.style.display == "none" ? true : false)
-        );
-        return startu;
-      }
-
-      document.addEventListener("keyup", (e) => {
-        e.key == "ArrowLeft" ? pinButton[0].click() : console.log();
-        e.key == "ArrowRight" ? pinButton[1].click() : console.log();
-        e.key == " " && startButton.style.display!="none" ? startButton.click() : console.log();
-      });
-      opsi.forEach((e) => {
-      e.addEventListener("change", (f) => {
-      f.target.setAttribute("disabled", "true");
+// tombol cekpoin ditekan
+pinButton.forEach((i, f) => {
+  i.addEventListener("click", (e) => {
+    if (startButton.style.display == "none") {
+      i.innerHTML == "Finish" ? finishButton(f) : console.log();
+      cekText[f].innerHTML +=
+        i.innerHTML == "Finish"
+          ? `<div class="card ${f == 0 ? "leftCard" : "rightCard"} my-3 text-${
+              f == 0 ? "start" : "end"
+            }"><div class="card-body"><h3 class="stopPoint">Finish</h3><h4 class="stopPoint">${
+              timeStop[f].innerHTML
+            }</h4></div></div>`
+          : `<div class="card ${f == 0 ? "leftCard" : "rightCard"} my-3 text-${
+              f == 0 ? "start" : "end"
+            }"><div class="card-body"><h3 class="stopPoint">Checkpoint ${
+              cekStat[f]
+            }</h3><h4 class="stopPoint">${
+              timeStop[f].innerHTML
+            }</h4></div></div>`;
+      cekStat[f] += 1;
+      dataWaktu[f].push(timeStop[f].innerHTML);
+      i.innerHTML = cekStat[f] > checkpoint ? "Finish" : "Checkpoint";
+      selesai() ? clearInterval(stopBut) : console.log();
+      saveButton.style.display =
+        pinButton[0].style.visibility == "hidden" &&
+        pinButton[1].style.visibility == "hidden"
+          ? "unset"
+          : "none";
+    }
   });
 });
+// tombol finish ditekan
+function finishButton(ind) {
+  let baru = document.createElement("p");
+  baru.style.fontSize = "70pt";
+  baru.innerHTML = timeStop[ind].innerHTML;
+  timeStop[ind].parentNode.replaceChild(baru, timeStop[ind]);
+  pinButton[ind].style.visibility = "hidden";
+}
+// stopwatch awal
+let realTime = [0, 0, 0, 0];
+function stopwatch() {
+  realTime[0] += 1;
+  if (realTime[0] > 99) {
+    realTime[1] += 1;
+    realTime[0] = 0;
+  }
+  if (realTime[1] > 59) {
+    realTime[2] += 1;
+    realTime[1] = 0;
+  }
+  realTime[3] += 1;
+  timeStop.forEach(
+    (e) =>
+      (e.innerHTML = `${realTime[2].toString().padStart(2, "0")} : ${realTime[1]
+        .toString()
+        .padStart(2, "0")} : ${realTime[0].toString().padStart(2, "0")}`)
+  );
+}
+
+function selesai() {
+  let startu = true;
+  pinButton.forEach((e) => (startu = e.style.display == "none" ? true : false));
+  return startu;
+}
+
+document.addEventListener("keyup", (e) => {
+  e.key == "ArrowLeft" ? pinButton[0].click() : console.log();
+  e.key == "ArrowRight" ? pinButton[1].click() : console.log();
+  e.key == " " && startButton.style.display != "none"
+    ? startButton.click()
+    : console.log();
+});
+opsi.forEach((e) => {
+  e.addEventListener("change", (f) => {
+    f.target.setAttribute("disabled", "true");
+  });
+});
+
     </script>
   </body>
 </html>
